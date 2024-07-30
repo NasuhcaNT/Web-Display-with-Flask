@@ -14,6 +14,20 @@ python random name generator.py
 
 Open a web browser and navigate to http://localhost:5000 to see the real-time updated table.
 
+Explanation of send_data_to_web(new_data, df_columns)
+The send_data_to_web function is designed to update the global data frame with new data. Here's a breakdown of its parameters and functionality:
+
+Parameters:
+
+new_data (dict): A dictionary containing the new data to be added.
+df_columns (list): A list of column names for the data frame.
+Functionality:
+
+The function acquires a lock using data_frame_lock to ensure thread-safe access to the global data_frame.
+It concatenates the new data, converted into a DataFrame, to the existing global data_frame.
+Finally, it prints the newly added data to the console for verification.
+This ensures that any new data generated is safely and consistently added to the global data frame, which is then served via the Flask web application.
+
 Contributing
 Feel free to open an issue or submit a pull request if you have suggestions or improvements. Contributions are welcome!
 
