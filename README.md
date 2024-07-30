@@ -15,6 +15,7 @@ python random name generator.py
 Open a web browser and navigate to http://localhost:5000 to see the real-time updated table.
 
 Explanation of send_data_to_web(new_data, df_columns)
+
 The send_data_to_web function is designed to update the global data frame with new data. Here's a breakdown of its parameters and functionality:
 
 Parameters:
