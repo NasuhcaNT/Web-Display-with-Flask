@@ -1,10 +1,12 @@
 # Web-Display-with-Flask
 This repository contains a simple implementation of a random data generator for example and a Flask web application to display the generated data in real-time. The project is divided into two main parts: data_sender.py and random name generator.py
 
-How to Run
+How to Run:
+
 Clone this repository to your local machine.
 
 Ensure you have the necessary Python packages installed:
+
 pip install pandas flask
 
 Run the random name generator.py file to start the Flask application and begin generating and displaying random data:
