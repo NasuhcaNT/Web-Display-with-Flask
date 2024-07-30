@@ -7,7 +7,7 @@ Clone this repository to your local machine.
 Ensure you have the necessary Python packages installed:
 pip install pandas flask
 
-Run the main.py file to start the Flask application and begin generating and displaying random data:
+Run the random name generator.py file to start the Flask application and begin generating and displaying random data:
 python random name generator.py
 
 Open a web browser and navigate to http://localhost:5000 to see the real-time updated table.
