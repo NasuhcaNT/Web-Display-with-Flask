@@ -20,7 +20,10 @@ The send_data_to_web function is designed to update the global data frame with n
 Parameters:
 
 new_data (dict): A dictionary containing the new data to be added.
+
 df_columns (list): A list of column names for the data frame.
+
+
 Functionality:
 
 The function acquires a lock using data_frame_lock to ensure thread-safe access to the global data_frame.
